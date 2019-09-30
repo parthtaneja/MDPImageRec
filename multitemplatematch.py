@@ -5,13 +5,13 @@ import glob
 #empty list to store template images
 template_data=[]
 #make a list of all template images from a directory
-files1= glob.glob('your\\template images\\template*.png')
+files1= glob.glob('*.jpg')
 
 for myfile in files1:
     image = cv2.imread(myfile,0)
     template_data.append(image)
 
-test_image=cv2.imread('you\\testimage\\testimage.png')
+test_image=cv2.imread('imagerectemplate.jpg')
 test_image= cv2.cvtColor(test_image, cv2.COLOR_BGR2GRAY)
 
 #loop for matching
