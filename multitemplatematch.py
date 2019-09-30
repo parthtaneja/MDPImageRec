@@ -12,7 +12,7 @@ for myfile in files1:
     template_data.append(image)
 
 test_image=cv2.imread('imagerectemplate.jpg')
-test_image= cv2.cvtColor(test_image, cv2.COLOR_BGR2GRAY)
+#test_image= cv2.cvtColor(test_image, cv2.COLOR_BGR2GRAY)
 
 #loop for matching
 for tmp in template_data:
