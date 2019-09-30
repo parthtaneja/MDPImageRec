@@ -1,2 +1,2 @@
 # MDPImageRec
-# Template matching using opencv for MDP (Raspberry Pi)
+Template matching using opencv for MDP (Raspberry Pi)
